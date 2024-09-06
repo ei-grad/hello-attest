@@ -1,0 +1,12 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "hello-attest"
+version = "0.1.0"
+description = "A simple project with an attested function"
+authors = [
+    { name="Andrew Grigorev", email="andrew@ei-grad.ru" }
+]
+dependencies = []
