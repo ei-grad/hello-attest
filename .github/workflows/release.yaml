@@ -45,6 +45,9 @@ jobs:
   release:
     needs: sign
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      id-token: write
     steps:
       - name: Checkout code
         uses: actions/checkout@v4
